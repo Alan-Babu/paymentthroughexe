@@ -1,21 +1,22 @@
-[Fri Jun 27 2025 19:18:28 GMT+0530 (India Standard Time)] Service starting...
-[Fri Jun 27 2025 19:18:28 GMT+0530 (India Standard Time)] Listening on port 3000
-[Fri Jun 27 2025 20:04:45 GMT+0530 (India Standard Time)] Service starting...
-[Fri Jun 27 2025 20:04:45 GMT+0530 (India Standard Time)] Uncaught Exception: Error: listen EADDRINUSE: address already in use :::3000
+[Fri Jun 27 2025 20:42:05 GMT+0530 (India Standard Time)] Launched: notepad.exe
+[Fri Jun 27 2025 20:59:35 GMT+0530 (India Standard Time)] Launched: notepad.exe
+[Fri Jun 27 2025 20:59:49 GMT+0530 (India Standard Time)] Launched: notepad.exe
+[Fri Jun 27 2025 21:10:43 GMT+0530 (India Standard Time)] Service starting...
+[Fri Jun 27 2025 21:10:43 GMT+0530 (India Standard Time)] Listening on port 3000
+[Fri Jun 27 2025 21:13:32 GMT+0530 (India Standard Time)] Service starting...
+[Fri Jun 27 2025 21:13:32 GMT+0530 (India Standard Time)] Uncaught Exception: Error: listen EADDRINUSE: address already in use :::3000
     at Server.setupListenHandle [as _listen2] (node:net:1912:16)
     at listenInCluster (node:net:1969:12)
     at Server.listen (node:net:2074:7)
     at Function.listen (D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\node_modules\express\lib\application.js:635:24)
-    at Object.<anonymous> (D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\payment.js:30:5)
+    at Object.<anonymous> (D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\payment.js:46:5)
     at Module._compile (node:internal/modules/cjs/loader:1565:14)
     at Object..js (node:internal/modules/cjs/loader:1708:10)
     at Module.load (node:internal/modules/cjs/loader:1318:32)
     at Function._load (node:internal/modules/cjs/loader:1128:12)
     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
-[Fri Jun 27 2025 20:06:05 GMT+0530 (India Standard Time)] Service starting...
-[Fri Jun 27 2025 20:06:05 GMT+0530 (India Standard Time)] Listening on port 3000
-[Fri Jun 27 2025 20:14:28 GMT+0530 (India Standard Time)] Service starting...
-[Fri Jun 27 2025 20:14:28 GMT+0530 (India Standard Time)] Listening on port 3000
-[Fri Jun 27 2025 20:24:58 GMT+0530 (India Standard Time)] Service starting...
-[Fri Jun 27 2025 20:24:58 GMT+0530 (India Standard Time)] Listening on port 3000
-[Fri Jun 27 2025 20:25:02 GMT+0530 (India Standard Time)] Launched: notepad.exe
+[Fri Jun 27 2025 21:14:59 GMT+0530 (India Standard Time)] Service starting...
+[Fri Jun 27 2025 21:14:59 GMT+0530 (India Standard Time)] Listening on port 3000
+[Fri Jun 27 2025 21:17:22 GMT+0530 (India Standard Time)] Service starting...
+[Fri Jun 27 2025 21:17:22 GMT+0530 (India Standard Time)] Listening on port 3000
+[Fri Jun 27 2025 21:17:45 GMT+0530 (India Standard Time)] Launched: notepad.exe

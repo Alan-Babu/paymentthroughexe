@@ -29,6 +29,7 @@ app.get('/start-payment', (req, res) => {
 });*/
 
 app.get('/start-payment', (req, res) => {
+  console.log('Received payment trigger from browser.');
   const cmd = 'notepad.exe'; // or some dummy EXE
   exec(cmd, (err) => {
     if (err) {
@@ -43,7 +44,7 @@ app.get('/start-payment', (req, res) => {
 });
 
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Payment agent running at http://localhost:${PORT}`);
   fs.appendFileSync('service-log.txt', `[${new Date()}] Listening on port ${PORT}\n`);
 });
