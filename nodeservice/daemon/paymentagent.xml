@@ -1,0 +1,30 @@
+<service>
+	<id>paymentagent.exe</id>
+	<name>PaymentAgent</name>
+	<description>Runs the payment agent in background</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\payment-agent.exe</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>PaymentAgent wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.5</argument>
+	<argument>--wait</argument>
+	<argument>2</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>MSI</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice</workingdirectory>
+</service>

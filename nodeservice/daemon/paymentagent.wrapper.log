@@ -1,0 +1,14 @@
+2025-06-27 18:40:35 - Starting C:\Program Files\nodejs\node.exe  D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\node_modules\node-windows\lib\wrapper.js --file D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\payment-agent.exe --scriptoptions= --log "PaymentAgent wrapper" --grow 0.5 --wait 2 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-06-27 18:40:35 - Started 18952
+2025-06-27 18:41:48 - Starting C:\Program Files\nodejs\node.exe  D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\node_modules\node-windows\lib\wrapper.js --file D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\payment-agent.exe --scriptoptions= --log "PaymentAgent wrapper" --grow 0.5 --wait 2 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-06-27 18:41:48 - Started 18304
+2025-06-27 18:41:53 - Starting C:\Program Files\nodejs\node.exe  D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\node_modules\node-windows\lib\wrapper.js --file D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\payment-agent.exe --scriptoptions= --log "PaymentAgent wrapper" --grow 0.5 --wait 2 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-06-27 18:41:53 - Started 19036
+2025-06-27 18:45:17 - Starting C:\Program Files\nodejs\node.exe  D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\node_modules\node-windows\lib\wrapper.js --file D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\payment-agent.exe --scriptoptions= --log "PaymentAgent wrapper" --grow 0.5 --wait 2 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-06-27 18:45:17 - Started 20152
+2025-06-27 18:45:19 - Starting C:\Program Files\nodejs\node.exe  D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\node_modules\node-windows\lib\wrapper.js --file D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\payment-agent.exe --scriptoptions= --log "PaymentAgent wrapper" --grow 0.5 --wait 2 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-06-27 18:45:19 - Started 5980
+2025-06-27 18:45:40 - Starting C:\Program Files\nodejs\node.exe  D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\node_modules\node-windows\lib\wrapper.js --file D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\payment-agent.exe --scriptoptions= --log "PaymentAgent wrapper" --grow 0.5 --wait 2 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-06-27 18:45:40 - Started 9900
+2025-06-27 19:20:39 - Starting C:\Program Files\nodejs\node.exe  D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\node_modules\node-windows\lib\wrapper.js --file D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\payment-agent.exe --scriptoptions= --log "PaymentAgent wrapper" --grow 0.5 --wait 2 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-06-27 19:20:39 - Started 12480

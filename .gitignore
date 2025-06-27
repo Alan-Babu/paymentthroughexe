@@ -1,0 +1,22 @@
+# Node
+nodeservice/node_modules/
+paymentapp/node_modules/
+*.log
+.env
+
+# Angular
+paymentapp/dist/
+nodeservice/dist
+nodeservice/daemon
+nodeservice/output
+nodeservice/delete
+frontend/.angular/cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

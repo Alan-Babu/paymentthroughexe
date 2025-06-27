@@ -1,0 +1,31 @@
+<service>
+	<id>localpaymentagent.exe</id>
+	<name>LocalPaymentAgent</name>
+	<description>Triggers payment exe from Angular web app</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice\payment-agent.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>LocalPaymentAgent wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>MSI</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>D:\Training\Angular\nodeProject\paymentthroughexe\nodeservice</workingdirectory>
+</service>
