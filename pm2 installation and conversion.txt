@@ -1,0 +1,42 @@
+#installation
+npm install -g pm2
+
+#command to check logs in case of a need
+pm2 logs payment-service
+
+#command to delete pm2 service
+pm2 delete all
+
+#command to list pm2 service 
+pm2 list
+
+#converting api to service
+
+pm2 start payment.js --name payment-service
+
+pm2 logs payment-service ==> to check if any error
+
+pm2 save
+
+#adding service to run on login
+
+Press Win + R, type taskschd.msc, and hit Enter.
+
+Click Create Basic Task
+
+Name it: PM2 Auto Start
+
+Trigger: At log on
+
+Action: Start a program
+
+Program/script:
+cmd.exe
+
+Arguments:
+/c "pm2 resurrect"
+
+
+
+
+
